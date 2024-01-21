@@ -1,0 +1,418 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/hello/User
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/python
+Accept: application/json
+
+###
+
+//-------------------------TEAMS--------------------------------------
+//GETS
+GET http://127.0.0.1:8000/team/CSC%20Futsal
+Accept: application/json
+
+###
+//POSTS
+POST http://127.0.0.1:8000/teams
+Content-Type: application/json
+
+{
+    "name": "CSC Futsal",
+    "country": "Spain",
+    "description": "Futbol Sala Team"}
+
+###
+POST http://127.0.0.1:8000/teams
+Content-Type: application/json
+
+{
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon"}
+
+###
+
+//PUTS
+PUT http://127.0.0.1:8000/teams/FCBarcelona
+Content-Type: application/json
+
+{
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon i de Barcelona"
+}
+
+
+###
+
+PUT http://127.0.0.1:8000/teams/CSC%20Futsal
+Content-Type: application/json
+
+{
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team de China"
+}
+
+###
+//DELETES
+DELETE http://127.0.0.1:8000/teams/Manchester%20City
+Accept-Type: application/json
+
+
+###
+
+DELETE http://127.0.0.1:8000/teams/FCBarcelona
+Accept-Type: application/json
+
+###
+
+//GETS
+GET http://127.0.0.1:8000/competitions/1st%20Division%20League/teams
+Accept-Type: application/json
+
+###
+
+//GETS
+GET http://127.0.0.1:8000/competitions/2nd%20Division%20League/teams
+Accept-Type: application/json
+
+###
+
+//GETS
+GET http://127.0.0.1:8000/matches/1/teams
+Accept-Type: application/json
+
+###
+
+//-------------------------COMPETITIONS--------------------------------------
+//GETS
+GET http://127.0.0.1:8000/competition/1
+Accept: application/json
+
+###
+
+//POSTS
+POST http://127.0.0.1:8000/competitions
+Content-Type: application/json
+
+{
+    "name": "1st Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 1,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },{
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+}
+
+###
+//PUTS
+PUT http://127.0.0.1:8000/competitions/1
+Content-Type: application/json
+
+{
+    "name": "2nd Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 1,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },{
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+}
+
+###
+
+PUT http://127.0.0.1:8000/competitions/2
+Content-Type: application/json
+
+{
+    "name": "1st Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 1,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },{
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+}
+
+###
+//DELETES
+DELETE http://127.0.0.1:8000/competitions/1
+Accept-Type: application/json
+
+###
+
+//GETS
+GET http://127.0.0.1:8000/teams/CSC%20Futsal/competitions
+Accept-Type: application/json
+
+###
+
+//GETS
+GET http://127.0.0.1:8000/matches/1/competition
+Accept-Type: application/json
+
+###
+
+//-------------------------MATCHES--------------------------------------
+//GETS
+GET http://127.0.0.1:8000/match/1
+Accept: application/json
+
+###
+
+//POSTS
+POST http://127.0.0.1:8000/matches
+Content-Type: application/json
+
+{
+  "local": {
+    "id": 1,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon"
+  },
+  "date": "2022-12-27 23:30:00",
+  "price": "30.20",
+  "total_available_tickets": 300,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 1,
+    "name": "2nd Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 1,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon"
+      }
+    ]
+  }
+}
+
+###
+
+
+//PUTS
+PUT http://127.0.0.1:8000/matches/1
+Content-Type: application/json
+
+{
+  "local": {
+    "id": 1,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team de China"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon i de Barcelona"
+  },
+  "date": "2022-12-27 20:35:00",
+  "price": "29.99",
+  "total_available_tickets": 450,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 2,
+    "name": "1st Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 3,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+  }
+}
+
+###
+//DELETES
+DELETE http://127.0.0.1:8000/matches/1
+Accept-Type: application/json
+
+
+###
+//GETS
+GET http://127.0.0.1:8000/teams/CSC%20Futsal/matches
+Accept-Type: application/json
+
+###
+
+//GETS
+GET http://127.0.0.1:8000/competitions/2nd%20Division%20League/matches
+Accept-Type: application/json
+
+###
+
+//GETS
+GET http://127.0.0.1:8000/competitions/1st%20Division%20League/matches
+Accept-Type: application/json
+
+###
+//-------------------------ACCOUNTS--------------------------------------
+
+//POSTS
+POST http://127.0.0.1:8000/account/
+Content-Type: application/json
+
+{
+  "username": "Megakangrejo",
+  "password": "suckedprac1"
+}
+
+###
+
+//POSTS
+POST http://127.0.0.1:8000/account/
+Content-Type: application/json
+
+{
+  "username": "Juan",
+  "password": "suckedprac3"
+}
+
+###
+//PUTS
+PUT http://127.0.0.1:8000/account/Arturo
+Content-Type: application/json
+
+{
+  "username": "Arturo",
+  "password": "suckedprac3"
+}
+###
+
+//DELETES
+DELETE http://127.0.0.1:8000/account/Arturo
+Accept-Type: application/json
+
+###
+
+//GETS
+GET http://127.0.0.1:8000/account/Juan
+Accept-Type: application/json
+
+###
+
+GET http://127.0.0.1:8000/account/
+Accept-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODUwMTEyMDgsInN1YiI6IkFydHVybyJ9.axUTVhi1I51jwqEWVIhsA9nuWFx_hMZS427gWuxCRZ4
+
+###
+
+//GETS
+GET http://127.0.0.1:8000/accounts/
+Accept-Type: application/json
+
+###
+
+//POSTS
+POST http://127.0.0.1:8000/orders/Megakangrejo/
+Content-Type: application/json
+
+{
+  "username": "Megakangrejo",
+  "match_id": 1,
+  "tickets_bought": 2
+}
+
+
+
+###
+
+//GETS
+GET http://127.0.0.1:8000/orders/Megakangrejo/
+Accept-Type: application/json
+###
+
+//GETS
+GET http://127.0.0.1:8000/orders/
+Accept-Type: application/json
+###
+
+//GETS
+GET http://127.0.0.1:8000/orders/Arturo/
+Accept-Type: application/json
+###
+
+
+POST http://127.0.0.1:8000/login
+Content-Type: application/x-www-form-urlencoded
+
+username=Arturo&password=suckedprac3
+
+###
+
+POST http://127.0.0.1:8000/orders
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODUwMTQ3ODMsInN1YiI6IkFydHVybyJ9.HWpJSZPY90ljqv6mClTMYpX6bQL0N134Glfn3onWreI
+
+{
+  "username": "Arturo",
+  "match_id": 1,
+  "tickets_bought": 2
+}
+
+###
