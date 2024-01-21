@@ -10,6 +10,16 @@ Practica 1 involves a distributed adaptation of the game "DAN DAN DISH", a varia
 
 Practica 2 delves into software testing and deployment, where issues such as transactions with negative balances and ticket purchases without an active session were identified and addressed. The practice covers the use of Docker for containerization and includes detailed explanations of the code and modifications for reevaluation..
 
+## Team Members
+
+This repository is brought to you by the collaborative efforts of a dedicated team. Special thanks to each member for their contributions:
+
+- Arturo Latorre - [ArturoLat](https://github.com/ArturoLat)
+- Zijian Jiang - [ZijianJiang](https://github.com/ZijianJiang)
+
+Each team member has played a crucial role in the development of the projects within this repository.
+
+
 ### How to Navigate
 
 To explore these practices, clone the repository and navigate to the respective directories:
