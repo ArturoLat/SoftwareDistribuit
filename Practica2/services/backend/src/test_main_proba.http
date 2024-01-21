@@ -1,0 +1,153 @@
+POST http://127.0.0.1:8000/teams
+Content-Type: application/json
+
+{
+    "name": "Manchester City",
+    "country": "Inglaterra",
+    "description": "Guardiola Entrenador"}
+
+
+
+###
+
+POST http://127.0.0.1:8000/teams
+Content-Type: application/json
+
+{
+    "name": "Real Madrid",
+    "country": "España",
+    "description": "Mbappe out"}
+
+
+
+###
+
+
+POST http://127.0.0.1:8000/teams
+Content-Type: application/json
+
+{
+    "name": "Inter Milan",
+    "country": "Italia",
+    "description": "Ha perdut la final"}
+
+
+###
+
+POST http://127.0.0.1:8000/competitions
+Content-Type: application/json
+
+{
+    "name": "Champions League",
+    "category": "Senior",
+    "sport": "Football",
+    "teams": [
+      {
+        "name": "Manchester City",
+        "country": "Inglaterra",
+        "description": "Guardiola Entrenador",
+        "id": 5
+      },{
+        "name": "Inter Milan",
+        "country": "Italia",
+        "description": "Ha perdut la final",
+        "id": 4
+      },
+      {
+        "name": "Real Madrid",
+        "country": "España",
+        "description": "Mbappe out",
+        "id": 6
+      }
+    ]
+}
+
+###
+
+POST http://127.0.0.1:8000/matches
+Content-Type: application/json
+
+{
+  "local": {
+      "name": "Manchester City",
+      "country": "Inglaterra",
+      "description": "Guardiola Entrenador",
+      "id": 5
+  },
+  "visitor": {
+      "name": "Inter Milan",
+      "country": "Italia",
+      "description": "Ha perdut la final",
+      "id": 4
+  },
+  "date": "2023-06-09 21:00:00",
+  "price": "50",
+  "total_available_tickets": 300,
+  "url": "../static/football.png",
+  "competition": {
+    "name": "Champions League",
+    "category": "Senior",
+    "sport": "Football",
+    "teams": [
+      {
+        "name": "Inter Milan",
+        "country": "Italia",
+        "description": "Ha perdut la final",
+        "id": 4
+      },
+      {
+        "name": "Manchester City",
+        "country": "Inglaterra",
+        "description": "Guardiola Entrenador",
+        "id": 5
+      }
+    ],
+    "id": 3
+  }
+}
+
+
+###
+
+
+POST http://127.0.0.1:8000/matches
+Content-Type: application/json
+
+{
+  "local": {
+      "name": "Manchester City",
+      "country": "Inglaterra",
+      "description": "Guardiola Entrenador",
+      "id": 5
+  },
+  "visitor": {
+    "name": "Real Madrid",
+    "country": "España",
+    "description": "Mbappe out",
+    "id": 6
+  },
+  "date": "2023-05-09 21:00:00",
+  "price": "45",
+  "total_available_tickets": 300,
+  "url": "../static/football.png",
+  "competition": {
+    "name": "Champions League",
+    "category": "Senior",
+    "sport": "Football",
+    "teams": [
+      {
+        "name": "Real Madrid",
+        "country": "España",
+        "description": "Mbappe out",
+        "id": 6
+      },
+      {
+        "name": "Manchester City",
+        "country": "Inglaterra",
+        "description": "Guardiola Entrenador",
+        "id": 5
+      }
+    ],
+    "id": 3
+  }
+}

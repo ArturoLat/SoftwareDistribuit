@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1966f39b-e780-441f-b707-dd9a3cfc9656" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/backend/src/repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/backend/src/repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/backend/src/test_main_proba.http" beforeDir="false" afterPath="$PROJECT_DIR$/services/backend/src/test_main_proba.http" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FastAPI main" />
+        <option value="Python Script" />
+        <option value="Vue Single File Component" />
+        <option value="HTTP Request" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PeawwyLnIUxYkmubW88ln7Yq2M" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;import_schema_mapping&quot;: &quot;&lt;schema-mapping&gt;\n  &lt;databases&gt;\n    &lt;list&gt;\n      &lt;schema-mapping-item&gt;\n        &lt;source-data-source-id&gt;6754c1cb-9d50-4d05-ade1-0a0573e5f6b4&lt;/source-data-source-id&gt;\n        &lt;source-path&gt;schema/&amp;quot;main&amp;quot;&lt;/source-path&gt;\n        &lt;target-data-source-id&gt;6754c1cb-9d50-4d05-ade1-0a0573e5f6b4&lt;/target-data-source-id&gt;\n        &lt;target-path&gt;schema/&amp;quot;main&amp;quot;&lt;/target-path&gt;\n      &lt;/schema-mapping-item&gt;\n    &lt;/list&gt;\n  &lt;/databases&gt;\n&lt;/schema-mapping&gt;&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.15.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.15.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/artur/Desktop/Uni/sd&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;database.data.views&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\artur\PycharmProjects\practica-2-b10\frontend" />
+      <recent name="C:\Users\artur\PycharmProjects\practica-2-b10\frontend\static" />
+      <recent name="C:\Users\artur\PycharmProjects\practica-2-b10\frontend\src\assets" />
+      <recent name="C:\Users\artur\PycharmProjects\practica-2-b10\frontend\src\components" />
+    </key>
+  </component>
+  <component name="RunManager" selected="FastAPI.practica-2-b10">
+    <configuration name="test_main | #23" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/services/backend/src/test_main.http" index="23" requestIdentifier="#23" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="test_main_proba | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/services/backend/src/test_main_proba.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="test_main_proba | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/services/backend/src/test_main_proba.http" index="4" requestIdentifier="#4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="test_main_proba | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/services/backend/src/test_main_proba.http" index="5" requestIdentifier="#5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="test_main_proba | #6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/services/backend/src/test_main_proba.http" index="6" requestIdentifier="#6" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="practica-2-b10" type="Python.FastAPI">
+      <option name="file" value="C:\Users\artur\PycharmProjects\practica-2-b10\main.py" />
+      <module name="practica-2-b10" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\artur\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="SDK_NAME" value="Python 3.9" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="FastAPI.practica-2-b10" />
+      <item itemvalue="HTTP Request.test_main_proba | #5" />
+      <item itemvalue="HTTP Request.test_main_proba | #6" />
+      <item itemvalue="HTTP Request.test_main | #23" />
+      <item itemvalue="HTTP Request.test_main_proba | #2" />
+      <item itemvalue="HTTP Request.test_main_proba | #4" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.test_main_proba | #6" />
+        <item itemvalue="HTTP Request.test_main_proba | #5" />
+        <item itemvalue="HTTP Request.test_main_proba | #4" />
+        <item itemvalue="HTTP Request.test_main_proba | #2" />
+        <item itemvalue="HTTP Request.test_main | #23" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1966f39b-e780-441f-b707-dd9a3cfc9656" name="Changes" comment="" />
+      <created>1683820243932</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683820243932</updated>
+      <workItem from="1683820271720" duration="4946000" />
+      <workItem from="1683906324645" duration="2176000" />
+      <workItem from="1683970195256" duration="13633000" />
+      <workItem from="1683988800658" duration="5169000" />
+      <workItem from="1683994476955" duration="5775000" />
+      <workItem from="1684007441682" duration="941000" />
+      <workItem from="1684378770941" duration="1277000" />
+      <workItem from="1684382856508" duration="221000" />
+      <workItem from="1684383302981" duration="8455000" />
+      <workItem from="1684394625183" duration="17516000" />
+      <workItem from="1684438415556" duration="358000" />
+      <workItem from="1684996955423" duration="269000" />
+      <workItem from="1684997294457" duration="17370000" />
+      <workItem from="1685019332894" duration="12251000" />
+      <workItem from="1685034211792" duration="107000" />
+      <workItem from="1685076155430" duration="3866000" />
+      <workItem from="1685100411320" duration="748000" />
+      <workItem from="1687178070744" duration="674000" />
+      <workItem from="1687184940093" duration="1325000" />
+      <workItem from="1687190694796" duration="1341000" />
+      <workItem from="1687412186446" duration="291000" />
+      <workItem from="1687454268518" duration="6305000" />
+      <workItem from="1687493987143" duration="1427000" />
+      <workItem from="1687517566250" duration="2882000" />
+    </task>
+    <task id="LOCAL-00001" summary="Sessio 3 Finalitzat.&#10;Afegit:&#10; - Carpeta FrontEnd Sencera&#10; - Conexio FastApi i VUE">
+      <created>1683824909664</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683824909664</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Sessio 3 Finalitzat.&#10;Afegit:&#10; - Carpeta FrontEnd Sencera&#10; - Conexio FastApi i VUE">
+      <created>1683825150874</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683825150874</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Sessio 4: Exercici 1">
+      <created>1683977652340</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683977652340</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Sessio 4: Exercici 2&#10;Sessio 4: Exercici 3 Començat">
+      <created>1684007582874</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684007582874</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Sessio 4: Exercici 3 Finalitzat">
+      <created>1684384698339</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684384698339</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Sessio 4: Exercici 3 Finalitzat">
+      <created>1684384827543</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684384827543</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Sessio 4: Exercici 7 realitzat">
+      <created>1684426853912</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684426853912</updated>
+    </task>
+    <task id="LOCAL-00008" summary="- Post - GET - Update - Delete: Implementats completament&#10;- Matches_added = S'elimina quan realitzas la compra">
+      <created>1685002061402</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685002061402</updated>
+    </task>
+    <task id="LOCAL-00009" summary="- Post - GET - Update - Delete: Implementats completament&#10;- Matches_added = S'elimina quan realitzas la compra">
+      <created>1685002074011</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685002074011</updated>
+    </task>
+    <task id="LOCAL-00010" summary="- Boton LogIn&#10;- Proteccio Order i account">
+      <created>1685014391142</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1685014391142</updated>
+    </task>
+    <task id="LOCAL-00011" summary="- Sessio5 finalitzada">
+      <created>1685026654127</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1685026654127</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Docker Finalitzat">
+      <created>1685638521923</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1685638521923</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Docker Finalitzat - unversioned files">
+      <created>1685639602886</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685639602886</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Docker Finalitzat - unversioned files">
+      <created>1685640107653</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1685640107653</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Docker Arreglat">
+      <created>1687191100331</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1687191100331</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Actualitzacio dockerfile i requeriments">
+      <created>1687460757597</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1687460757597</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Matches arreglat">
+      <created>1687494639570</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1687494639570</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Sessio 3 Finalitzat.&#10;Afegit:&#10; - Carpeta FrontEnd Sencera&#10; - Conexio FastApi i VUE" />
+    <MESSAGE value="Sessio 4: Exercici 1" />
+    <MESSAGE value="Sessio 4: Exercici 2&#10;Sessio 4: Exercici 3 Començat" />
+    <MESSAGE value="Sessio 4: Exercici 3 Finalitzat" />
+    <MESSAGE value="Sessio 4: Exercici 7 realitzat" />
+    <MESSAGE value="- Post - GET - Update - Delete: Implementats completament&#10;- Matches_added = S'elimina quan realitzas la compra" />
+    <MESSAGE value="- Boton LogIn&#10;- Proteccio Order i account" />
+    <MESSAGE value="- Sessio5 finalitzada" />
+    <MESSAGE value="Docker Finalitzat" />
+    <MESSAGE value="Docker Finalitzat - unversioned files" />
+    <MESSAGE value="Docker Arreglat" />
+    <MESSAGE value="Actualitzacio dockerfile i requeriments" />
+    <MESSAGE value="Matches arreglat" />
+    <option name="LAST_COMMIT_MESSAGE" value="Matches arreglat" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/practica_2_b10$.coverage" NAME=" Coverage Results" MODIFIED="1683996395222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/practica_2_b10$practica_2_b10.coverage" NAME="practica-2-b10 Coverage Results" MODIFIED="1685616158786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/practica_2___main$practica_2_b10.coverage" NAME="practica-2-b10 Coverage Results" MODIFIED="1685505676355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>

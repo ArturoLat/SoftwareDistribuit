@@ -1,0 +1,2102 @@
+POST http://127.0.0.1:8000/matches
+Content-Type: application/json
+Content-Length: 799
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+      "name": "Manchester City",
+      "country": "Inglaterra",
+      "description": "Guardiola Entrenador",
+      "id": 5
+  },
+  "visitor": {
+    "name": "Real Madrid",
+    "country": "España",
+    "description": "Mbappe out",
+    "id": 6
+  },
+  "date": "2023-05-09 21:00:00",
+  "price": "45",
+  "total_available_tickets": 300,
+  "url": "../static/football.png",
+  "competition": {
+    "name": "Champions League",
+    "category": "Senior",
+    "sport": "Football",
+    "teams": [
+      {
+        "name": "Real Madrid",
+        "country": "España",
+        "description": "Mbappe out",
+        "id": 6
+      },
+      {
+        "name": "Manchester City",
+        "country": "Inglaterra",
+        "description": "Guardiola Entrenador",
+        "id": 5
+      }
+    ],
+    "id": 3
+  }
+}
+
+<> 2023-06-23T134213.200.json
+
+###
+
+POST http://127.0.0.1:8000/matches
+Content-Type: application/json
+Content-Length: 821
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+      "name": "Manchester City",
+      "country": "Inglaterra",
+      "description": "Guardiola Entrenador",
+      "id": 5
+  },
+  "visitor": {
+      "name": "Inter Milan",
+      "country": "Italia",
+      "description": "Ha perdut la final",
+      "id": 4
+  },
+  "date": "2023-06-09 21:00:00",
+  "price": "50",
+  "total_available_tickets": 300,
+  "url": "../static/football.png",
+  "competition": {
+    "name": "Champions League",
+    "category": "Senior",
+    "sport": "Football",
+    "teams": [
+      {
+        "name": "Inter Milan",
+        "country": "Italia",
+        "description": "Ha perdut la final",
+        "id": 4
+      },
+      {
+        "name": "Manchester City",
+        "country": "Inglaterra",
+        "description": "Guardiola Entrenador",
+        "id": 5
+      }
+    ],
+    "id": 3
+  }
+}
+
+<> 2023-06-23T134209.200.json
+
+###
+
+POST http://127.0.0.1:8000/matches
+Content-Type: application/json
+Content-Length: 821
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+      "name": "Manchester City",
+      "country": "Inglaterra",
+      "description": "Guardiola Entrenador",
+      "id": 5
+  },
+  "visitor": {
+      "name": "Inter Milan",
+      "country": "Italia",
+      "description": "Ha perdut la final",
+      "id": 4
+  },
+  "date": "2023-06-09 21:00:00",
+  "price": "50",
+  "total_available_tickets": 300,
+  "url": "../static/football.png",
+  "competition": {
+    "name": "Champions League",
+    "category": "Senior",
+    "sport": "Football",
+    "teams": [
+      {
+        "name": "Inter Milan",
+        "country": "Italia",
+        "description": "Ha perdut la final",
+        "id": 4
+      },
+      {
+        "name": "Manchester City",
+        "country": "Inglaterra",
+        "description": "Guardiola Entrenador",
+        "id": 5
+      }
+    ],
+    "id": 3
+  }
+}
+
+<> 2023-06-23T134148.500.txt
+
+###
+
+POST http://127.0.0.1:8000/matches
+Content-Type: application/json
+Content-Length: 799
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+      "name": "Manchester City",
+      "country": "Inglaterra",
+      "description": "Guardiola Entrenador",
+      "id": 5
+  },
+  "visitor": {
+    "name": "Real Madrid",
+    "country": "España",
+    "description": "Mbappe out",
+    "id": 6
+  },
+  "date": "2023-05-09 21:00:00",
+  "price": "45",
+  "total_available_tickets": 300,
+  "url": "../static/football.png",
+  "competition": {
+    "name": "Champions League",
+    "category": "Senior",
+    "sport": "Football",
+    "teams": [
+      {
+        "name": "Real Madrid",
+        "country": "España",
+        "description": "Mbappe out",
+        "id": 6
+      },
+      {
+        "name": "Manchester City",
+        "country": "Inglaterra",
+        "description": "Guardiola Entrenador",
+        "id": 5
+      }
+    ],
+    "id": 3
+  }
+}
+
+<> 2023-06-23T133843.200.json
+
+###
+
+PUT http://127.0.0.1:8000/competitions/3
+Content-Type: application/json
+Content-Length: 516
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+    "name": "Champions League",
+    "category": "Senior",
+    "sport": "Football",
+    "teams": [
+      {
+        "name": "Manchester City",
+        "country": "Inglaterra",
+        "description": "Guardiola Entrenador",
+        "id": 5
+      },{
+        "name": "Inter Milan",
+        "country": "Italia",
+        "description": "Ha perdut la final",
+        "id": 4
+      },
+      {
+        "name": "Real Madrid",
+        "country": "España",
+        "description": "Mbappe out",
+        "id": 6
+      }
+    ]
+}
+
+<> 2023-06-23T133708.200.json
+
+###
+
+POST http://127.0.0.1:8000/teams
+Content-Type: application/json
+Content-Length: 87
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+    "name": "Real Madrid",
+    "country": "España",
+    "description": "Mbappe out"}
+
+<> 2023-06-23T133614.200.json
+
+###
+
+POST http://127.0.0.1:8000/matches
+Content-Type: application/json
+Content-Length: 821
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+      "name": "Manchester City",
+      "country": "Inglaterra",
+      "description": "Guardiola Entrenador",
+      "id": 5
+  },
+  "visitor": {
+      "name": "Inter Milan",
+      "country": "Italia",
+      "description": "Ha perdut la final",
+      "id": 4
+  },
+  "date": "2023-06-09 21:00:00",
+  "price": "50",
+  "total_available_tickets": 300,
+  "url": "../static/football.png",
+  "competition": {
+    "name": "Champions League",
+    "category": "Senior",
+    "sport": "Football",
+    "teams": [
+      {
+        "name": "Inter Milan",
+        "country": "Italia",
+        "description": "Ha perdut la final",
+        "id": 4
+      },
+      {
+        "name": "Manchester City",
+        "country": "Inglaterra",
+        "description": "Guardiola Entrenador",
+        "id": 5
+      }
+    ],
+    "id": 3
+  }
+}
+
+<> 2023-06-23T133514.200.json
+
+###
+
+PUT http://127.0.0.1:8000/matches/1
+Content-Type: application/json
+Content-Length: 833
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 3,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team de China"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon i de Barcelona"
+  },
+  "date": "2022-12-27 20:35:00",
+  "price": "29.99",
+  "total_available_tickets": 450,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 2,
+    "name": "1st Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 3,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+  }
+}
+
+<> 2023-06-23T062935.400.json
+
+###
+
+PUT http://127.0.0.1:8000/matches/1
+Content-Type: application/json
+Content-Length: 833
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 3,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team de China"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon i de Barcelona"
+  },
+  "date": "2022-12-27 20:35:00",
+  "price": "29.99",
+  "total_available_tickets": 450,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 2,
+    "name": "1st Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 3,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+  }
+}
+
+<> 2023-06-23T062930.500.txt
+
+###
+
+PUT http://127.0.0.1:8000/matches/1
+Content-Type: application/json
+Content-Length: 833
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 1,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team de China"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon i de Barcelona"
+  },
+  "date": "2022-12-27 20:35:00",
+  "price": "29.99",
+  "total_available_tickets": 450,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 2,
+    "name": "1st Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 3,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+  }
+}
+
+<> 2023-06-23T062848.200.json
+
+###
+
+PUT http://127.0.0.1:8000/matches/1
+Content-Type: application/json
+Content-Length: 833
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 3,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team de China"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon i de Barcelona"
+  },
+  "date": "2022-12-27 20:35:00",
+  "price": "29.99",
+  "total_available_tickets": 450,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 2,
+    "name": "1st Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 3,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+  }
+}
+
+<> 2023-06-23T062824.500.txt
+
+###
+
+PUT http://127.0.0.1:8000/matches/1
+Content-Type: application/json
+Content-Length: 833
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 3,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team de China"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon i de Barcelona"
+  },
+  "date": "2022-12-27 20:35:00",
+  "price": "29.99",
+  "total_available_tickets": 450,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 2,
+    "name": "1st Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 3,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+  }
+}
+
+<> 2023-06-23T062819.500.txt
+
+###
+
+PUT http://127.0.0.1:8000/matches/1
+Content-Type: application/json
+Content-Length: 833
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 3,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team de China"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon i de Barcelona"
+  },
+  "date": "2022-12-27 20:35:00",
+  "price": "29.99",
+  "total_available_tickets": 450,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 2,
+    "name": "1st Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 3,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+  }
+}
+
+<> 2023-06-23T062727.500.txt
+
+###
+
+PUT http://127.0.0.1:8000/matches/1
+Content-Type: application/json
+Content-Length: 833
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 3,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team de China"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon i de Barcelona"
+  },
+  "date": "2022-12-27 20:35:00",
+  "price": "29.99",
+  "total_available_tickets": 450,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 2,
+    "name": "1st Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 3,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+  }
+}
+
+<> 2023-06-23T062625.500.txt
+
+###
+
+PUT http://127.0.0.1:8000/matches/1
+Content-Type: application/json
+Content-Length: 833
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 3,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team de China"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon i de Barcelona"
+  },
+  "date": "2022-12-27 20:35:00",
+  "price": "29.99",
+  "total_available_tickets": 450,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 2,
+    "name": "1st Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 3,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+  }
+}
+
+<> 2023-06-23T062620.500.txt
+
+###
+
+POST http://127.0.0.1:8000/matches
+Content-Type: application/json
+Content-Length: 821
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+      "name": "Manchester City",
+      "country": "Inglaterra",
+      "description": "Guardiola Entrenador",
+      "id": 5
+  },
+  "visitor": {
+      "name": "Inter Milan",
+      "country": "Italia",
+      "description": "Ha perdut la final",
+      "id": 4
+  },
+  "date": "2023-06-09 21:00:00",
+  "price": "50",
+  "total_available_tickets": 300,
+  "url": "../static/football.png",
+  "competition": {
+    "name": "Champions League",
+    "category": "Senior",
+    "sport": "Football",
+    "teams": [
+      {
+        "name": "Inter Milan",
+        "country": "Italia",
+        "description": "Ha perdut la final",
+        "id": 4
+      },
+      {
+        "name": "Manchester City",
+        "country": "Inglaterra",
+        "description": "Guardiola Entrenador",
+        "id": 5
+      }
+    ],
+    "id": 3
+  }
+}
+
+<> 2023-06-23T062315.400.json
+
+###
+
+POST http://127.0.0.1:8000/matches
+Content-Type: application/json
+Content-Length: 821
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+      "name": "Manchester City",
+      "country": "Inglaterra",
+      "description": "Guardiola Entrenador",
+      "id": 5
+  },
+  "visitor": {
+      "name": "Inter Milan",
+      "country": "Italia",
+      "description": "Ha perdut la final",
+      "id": 4
+  },
+  "date": "2023-06-09 21:00:00",
+  "price": "50",
+  "total_available_tickets": 300,
+  "url": "../static/football.png",
+  "competition": {
+    "name": "Champions League",
+    "category": "Senior",
+    "sport": "Football",
+    "teams": [
+      {
+        "name": "Inter Milan",
+        "country": "Italia",
+        "description": "Ha perdut la final",
+        "id": 4
+      },
+      {
+        "name": "Manchester City",
+        "country": "Inglaterra",
+        "description": "Guardiola Entrenador",
+        "id": 5
+      }
+    ],
+    "id": 3
+  }
+}
+
+<> 2023-06-23T062306.200.json
+
+###
+
+POST http://127.0.0.1:8000/matches
+Content-Type: application/json
+Content-Length: 821
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+      "name": "Manchester City",
+      "country": "Inglaterra",
+      "description": "Guardiola Entrenador",
+      "id": 5
+  },
+  "visitor": {
+      "name": "Inter Milan",
+      "country": "Italia",
+      "description": "Ha perdut la final",
+      "id": 4
+  },
+  "date": "2023-06-09 21:00:00",
+  "price": "50",
+  "total_available_tickets": 300,
+  "url": "../static/football.png",
+  "competition": {
+    "name": "Champions League",
+    "category": "Senior",
+    "sport": "Football",
+    "teams": [
+      {
+        "name": "Inter Milan",
+        "country": "Italia",
+        "description": "Ha perdut la final",
+        "id": 4
+      },
+      {
+        "name": "Manchester City",
+        "country": "Inglaterra",
+        "description": "Guardiola Entrenador",
+        "id": 5
+      }
+    ],
+    "id": 3
+  }
+}
+
+<> 2023-06-23T062249.400.json
+
+###
+
+POST http://127.0.0.1:8000/matches
+Content-Type: application/json
+Content-Length: 821
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+      "name": "Manchester City",
+      "country": "Inglaterra",
+      "description": "Guardiola Entrenador",
+      "id": 5
+  },
+  "visitor": {
+      "name": "Inter Milan",
+      "country": "Italia",
+      "description": "Ha perdut la final",
+      "id": 4
+  },
+  "date": "2023-06-09 21:00:00",
+  "price": "50",
+  "total_available_tickets": 300,
+  "url": "../static/football.png",
+  "competition": {
+    "name": "Champions League",
+    "category": "Senior",
+    "sport": "Football",
+    "teams": [
+      {
+        "name": "Inter Milan",
+        "country": "Italia",
+        "description": "Ha perdut la final",
+        "id": 4
+      },
+      {
+        "name": "Manchester City",
+        "country": "Inglaterra",
+        "description": "Guardiola Entrenador",
+        "id": 5
+      }
+    ],
+    "id": 3
+  }
+}
+
+<> 2023-06-23T062212.400.json
+
+###
+
+POST http://127.0.0.1:8000/matches
+Content-Type: application/json
+Content-Length: 821
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+      "name": "Manchester City",
+      "country": "Inglaterra",
+      "description": "Guardiola Entrenador",
+      "id": 5
+  },
+  "visitor": {
+      "name": "Inter Milan",
+      "country": "Italia",
+      "description": "Ha perdut la final",
+      "id": 4
+  },
+  "date": "2023-06-09 21:00:00",
+  "price": "50",
+  "total_available_tickets": 300,
+  "url": "../static/football.png",
+  "competition": {
+    "name": "Champions League",
+    "category": "Senior",
+    "sport": "Football",
+    "teams": [
+      {
+        "name": "Inter Milan",
+        "country": "Italia",
+        "description": "Ha perdut la final",
+        "id": 4
+      },
+      {
+        "name": "Manchester City",
+        "country": "Inglaterra",
+        "description": "Guardiola Entrenador",
+        "id": 5
+      }
+    ],
+    "id": 3
+  }
+}
+
+<> 2023-06-22T210425.400.json
+
+###
+
+POST http://127.0.0.1:8000/matches
+Content-Type: application/json
+Content-Length: 821
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+      "name": "Manchester City",
+      "country": "Inglaterra",
+      "description": "Guardiola Entrenador",
+      "id": 5
+  },
+  "visitor": {
+      "name": "Inter Milan",
+      "country": "Italia",
+      "description": "Ha perdut la final",
+      "id": 4
+  },
+  "date": "2023-06-09 21:00:00",
+  "price": "50",
+  "total_available_tickets": 300,
+  "url": "../static/football.png",
+  "competition": {
+    "name": "Champions League",
+    "category": "Senior",
+    "sport": "Football",
+    "teams": [
+      {
+        "name": "Inter Milan",
+        "country": "Italia",
+        "description": "Ha perdut la final",
+        "id": 4
+      },
+      {
+        "name": "Manchester City",
+        "country": "Inglaterra",
+        "description": "Guardiola Entrenador",
+        "id": 5
+      }
+    ],
+    "id": 3
+  }
+}
+
+<> 2023-06-22T210259.400.json
+
+###
+
+POST http://127.0.0.1:8000/competitions
+Content-Type: application/json
+Content-Length: 385
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+    "name": "Champions League",
+    "category": "Senior",
+    "sport": "Football",
+    "teams": [
+      {
+        "name": "Manchester City",
+        "country": "Inglaterra",
+        "description": "Guardiola Entrenador",
+        "id": 5
+      },{
+        "name": "Inter Milan",
+        "country": "Italia",
+        "description": "Ha perdut la final",
+        "id": 4
+      }
+    ]
+}
+
+<> 2023-06-22T210110.200.json
+
+###
+
+POST http://127.0.0.1:8000/teams
+Content-Type: application/json
+Content-Length: 94
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+    "name": "Inter Milan",
+    "country": "Italia",
+    "description": "Ha perdut la final"}
+
+<> 2023-06-22T210106.400.json
+
+###
+
+POST http://127.0.0.1:8000/teams
+Content-Type: application/json
+Content-Length: 104
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+    "name": "Manchester City",
+    "country": "Inglaterra",
+    "description": "Guardiola Entrenador"}
+
+<> 2023-06-22T210040.200.json
+
+###
+
+DELETE http://127.0.0.1:8000/teams/Manchester%20City
+Accept-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-22T210036.200.json
+
+###
+
+POST http://127.0.0.1:8000/teams
+Content-Type: application/json
+Content-Length: 104
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+    "name": "Manchester City",
+    "country": "Inglaterra",
+    "description": "Guardiola Entrenador"}
+
+<> 2023-06-22T210016.400.json
+
+###
+
+DELETE http://127.0.0.1:8000/teams/FCBarcelona
+Accept-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-22T210012.200.json
+
+###
+
+DELETE http://127.0.0.1:8000/teams/CSC%20Futsal
+Accept-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-22T210010.200.json
+
+###
+
+DELETE http://127.0.0.1:8000/competitions/1
+Accept-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-22T210003.200.json
+
+###
+
+POST http://127.0.0.1:8000/teams
+Content-Type: application/json
+Content-Length: 94
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+    "name": "Inter Milan",
+    "country": "Italia",
+    "description": "Ha perdut la final"}
+
+<> 2023-06-22T205922.200.json
+
+###
+
+POST http://127.0.0.1:8000/teams
+Content-Type: application/json
+Content-Length: 104
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+    "name": "Manchester City",
+    "country": "Inglaterra",
+    "description": "Guardiola Entrenador"}
+
+<> 2023-06-22T205843.200.json
+
+###
+
+POST http://127.0.0.1:8000/matches
+Content-Type: application/json
+Content-Length: 785
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 1,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon"
+  },
+  "date": "2022-12-27 23:30:00",
+  "price": "30.20",
+  "total_available_tickets": 300,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 1,
+    "name": "2nd Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 1,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon"
+      }
+    ]
+  }
+}
+
+<> 2023-06-22T202953.400.json
+
+###
+
+PUT http://127.0.0.1:8000/matches/1
+Content-Type: application/json
+Content-Length: 833
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 3,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team de China"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon i de Barcelona"
+  },
+  "date": "2022-12-27 20:35:00",
+  "price": "29.99",
+  "total_available_tickets": 450,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 1,
+    "name": "2nd Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 1,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+  }
+}
+
+<> 2023-06-22T202936.500.txt
+
+###
+
+PUT http://127.0.0.1:8000/matches/1
+Content-Type: application/json
+Content-Length: 830
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 3,
+    "name": "NewTeam",
+    "country": "China",
+    "description": "Futbol Sala Team de China"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon i de Barcelona"
+  },
+  "date": "2022-12-27 20:35:00",
+  "price": "29.99",
+  "total_available_tickets": 450,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 1,
+    "name": "2nd Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 1,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+  }
+}
+
+<> 2023-06-22T202855.500.txt
+
+###
+
+PUT http://127.0.0.1:8000/matches/1
+Content-Type: application/json
+Content-Length: 830
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 3,
+    "name": "NewTeam",
+    "country": "China",
+    "description": "Futbol Sala Team de China"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon i de Barcelona"
+  },
+  "date": "2022-12-27 20:35:00",
+  "price": "29.99",
+  "total_available_tickets": 450,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 1,
+    "name": "2nd Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 1,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+  }
+}
+
+<> 2023-06-22T202434.500.txt
+
+###
+
+PUT http://127.0.0.1:8000/matches/1
+Content-Type: application/json
+Content-Length: 830
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 3,
+    "name": "NewTeam",
+    "country": "China",
+    "description": "Futbol Sala Team de China"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon i de Barcelona"
+  },
+  "date": "2022-12-27 20:35:00",
+  "price": "29.99",
+  "total_available_tickets": 450,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 1,
+    "name": "2nd Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 1,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+  }
+}
+
+<> 2023-06-22T202427.500.txt
+
+###
+
+PUT http://127.0.0.1:8000/matches/1
+Content-Type: application/json
+Content-Length: 830
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 3,
+    "name": "NewTeam",
+    "country": "China",
+    "description": "Futbol Sala Team de China"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon i de Barcelona"
+  },
+  "date": "2022-12-27 20:35:00",
+  "price": "29.99",
+  "total_available_tickets": 450,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 1,
+    "name": "2nd Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 1,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+  }
+}
+
+<> 2023-06-22T202408.500.txt
+
+###
+
+POST http://127.0.0.1:8000/matches
+Content-Type: application/json
+Content-Length: 785
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 1,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon"
+  },
+  "date": "2022-12-27 23:30:00",
+  "price": "30.20",
+  "total_available_tickets": 300,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 1,
+    "name": "2nd Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 1,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon"
+      }
+    ]
+  }
+}
+
+<> 2023-06-22T202349.400.json
+
+###
+
+PUT http://127.0.0.1:8000/matches/1
+Content-Type: application/json
+Content-Length: 833
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 1,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team de China"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon i de Barcelona"
+  },
+  "date": "2022-12-27 20:35:00",
+  "price": "29.99",
+  "total_available_tickets": 450,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 1,
+    "name": "2nd Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 1,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+  }
+}
+
+<> 2023-06-22T202345.500.txt
+
+###
+
+PUT http://127.0.0.1:8000/matches/1
+Content-Type: application/json
+Content-Length: 833
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 1,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team de China"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon i de Barcelona"
+  },
+  "date": "2022-12-27 20:35:00",
+  "price": "29.99",
+  "total_available_tickets": 450,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 1,
+    "name": "2nd Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 1,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+  }
+}
+
+<> 2023-06-22T202103.500.txt
+
+###
+
+PUT http://127.0.0.1:8000/matches/1
+Content-Type: application/json
+Content-Length: 833
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 1,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team de China"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon i de Barcelona"
+  },
+  "date": "2022-12-27 20:35:00",
+  "price": "29.99",
+  "total_available_tickets": 450,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 1,
+    "name": "2nd Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 1,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+  }
+}
+
+<> 2023-06-22T201959.500.txt
+
+###
+
+POST http://127.0.0.1:8000/matches
+Content-Type: application/json
+Content-Length: 785
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 1,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon"
+  },
+  "date": "2022-12-27 23:30:00",
+  "price": "30.20",
+  "total_available_tickets": 300,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 1,
+    "name": "2nd Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 1,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon"
+      }
+    ]
+  }
+}
+
+<> 2023-06-22T201956.400.json
+
+###
+
+POST http://127.0.0.1:8000/matches
+Content-Type: application/json
+Content-Length: 785
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 1,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon"
+  },
+  "date": "2022-12-27 23:30:00",
+  "price": "30.20",
+  "total_available_tickets": 300,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 1,
+    "name": "2nd Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 1,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon"
+      }
+    ]
+  }
+}
+
+<> 2023-06-22T201843.400.json
+
+###
+
+PUT http://127.0.0.1:8000/matches/1
+Content-Type: application/json
+Content-Length: 833
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 1,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team de China"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon i de Barcelona"
+  },
+  "date": "2022-12-27 20:35:00",
+  "price": "29.99",
+  "total_available_tickets": 450,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 1,
+    "name": "2nd Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 1,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+  }
+}
+
+<> 2023-06-22T201746.500.txt
+
+###
+
+PUT http://127.0.0.1:8000/matches/1
+Content-Type: application/json
+Content-Length: 833
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 1,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team de China"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon i de Barcelona"
+  },
+  "date": "2022-12-27 20:35:00",
+  "price": "29.99",
+  "total_available_tickets": 450,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 1,
+    "name": "2nd Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 1,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+  }
+}
+
+<> 2023-06-22T201716.500.txt
+
+###
+
+PUT http://127.0.0.1:8000/matches/1
+Content-Type: application/json
+Content-Length: 833
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 1,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team de China"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon i de Barcelona"
+  },
+  "date": "2022-12-27 20:35:00",
+  "price": "29.99",
+  "total_available_tickets": 450,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 1,
+    "name": "2nd Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 1,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+  }
+}
+
+<> 2023-06-22T201658.500.txt
+
+###
+
+PUT http://127.0.0.1:8000/matches/1
+Content-Type: application/json
+Content-Length: 833
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 1,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team de China"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon i de Barcelona"
+  },
+  "date": "2022-12-27 20:35:00",
+  "price": "29.99",
+  "total_available_tickets": 450,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 1,
+    "name": "2nd Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 1,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+  }
+}
+
+<> 2023-06-22T201521.500.txt
+
+###
+
+PUT http://127.0.0.1:8000/matches/6
+Content-Type: application/json
+Content-Length: 833
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 1,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team de China"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon i de Barcelona"
+  },
+  "date": "2022-12-27 20:35:00",
+  "price": "29.99",
+  "total_available_tickets": 450,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 1,
+    "name": "2nd Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 1,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+  }
+}
+
+<> 2023-06-22T201513.200.json
+
+###
+
+POST http://127.0.0.1:8000/matches
+Content-Type: application/json
+Content-Length: 785
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 1,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon"
+  },
+  "date": "2022-12-27 23:30:00",
+  "price": "30.20",
+  "total_available_tickets": 300,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 1,
+    "name": "2nd Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 1,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon"
+      }
+    ]
+  }
+}
+
+<> 2023-06-22T201422.400.json
+
+###
+
+PUT http://127.0.0.1:8000/matches/1
+Content-Type: application/json
+Content-Length: 833
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "local": {
+    "id": 1,
+    "name": "CSC Futsal",
+    "country": "China",
+    "description": "Futbol Sala Team de China"
+  },
+  "visitor": {
+    "id": 2,
+    "name": "FCBarcelona",
+    "country": "Spain",
+    "description": "Millor equip del mon i de Barcelona"
+  },
+  "date": "2022-12-27 20:35:00",
+  "price": "29.99",
+  "total_available_tickets": 450,
+  "url": "../static/football.png",
+  "competition": {
+    "id": 1,
+    "name": "2nd Division League",
+    "category": "Junior",
+    "sport": "Football",
+    "teams": [
+      {
+        "id": 1,
+        "name": "CSC Futsal",
+        "country": "China",
+        "description": "Futbol Sala Team de China"
+      },
+      {
+        "id": 2,
+        "name": "FCBarcelona",
+        "country": "Spain",
+        "description": "Millor equip del mon i de Barcelona"
+      }
+    ]
+  }
+}
+
+<> 2023-06-22T201420.500.txt
+
+###
+
