@@ -19,4 +19,13 @@ git clone https://github.com/ArturoLat/SoftwareDistribuit.git
 cd SoftwareDistribuit/Practica1 # For Practica 1
 # or
 cd SoftwareDistribuit/Practica2 # For Practica 2
+```
+
+Each directory contains specific instructions on setting up and running the projects.
+
+# Contributions
+Contributions to this repository are welcome. Please adhere to the contribution guidelines outlined in the repository, ensuring that any pull requests or changes maintain the integrity of the original project design and functionality.
+
+# Contact
+Should you have any questions, feel free to contact me at arturo.latorre2301@gmail.com, or reach out via [LinkedIn](https://www.linkedin.com/in/arturo-latorre-castelltort-820496258/).
 
